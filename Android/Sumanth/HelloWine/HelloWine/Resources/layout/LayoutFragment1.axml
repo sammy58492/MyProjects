@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/button"
+        android:text="My Tastings"
+        android:textColor="#ffffff"
+        android:height="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/sfondo_mierecensioni" />
+    <Button
+        android:id="@+id/button1"
+        android:text="New Tastings"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/sfondo_nuoverecensioni" />
+    <Button
+        android:id="@+id/button2"
+        android:text="Top Wines"
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:background="@drawable/sfondo_topvini" />
+</LinearLayout>
