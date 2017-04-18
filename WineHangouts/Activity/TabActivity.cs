@@ -41,6 +41,8 @@ namespace WineHangouts
 
             if (bundle != null)
                 this.ActionBar.SelectTab(this.ActionBar.GetTabAt(bundle.GetInt("tab")));
+            MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
+            typeof(Analytics), typeof(Crashes));
 
         }
 
