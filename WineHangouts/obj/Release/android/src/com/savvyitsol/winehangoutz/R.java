@@ -349,6 +349,42 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int checkedTextViewStyle=0x7f0100b3;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_color=0x7f0100cf;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_overlay=0x7f0100d0;
+        /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_border_width=0x7f0100ce;
+        /** <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int civ_fill_color=0x7f0100d1;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1597,61 +1633,70 @@ containing a value of this type.
         public static final int circle=0x7f020049;
         public static final int city=0x7f02004a;
         public static final int city1=0x7f02004b;
-        public static final int dpreplacer=0x7f02004c;
-        public static final int explore=0x7f02004d;
-        public static final int finca1=0x7f02004e;
-        public static final int heart_empty=0x7f02004f;
-        public static final int heart_full=0x7f020050;
-        public static final int ic_action_email=0x7f020051;
-        public static final int ic_action_map=0x7f020052;
-        public static final int ic_action_person=0x7f020053;
-        public static final int ic_action_place=0x7f020054;
-        public static final int ic_tab_white=0x7f020055;
-        public static final int ic_tab_white1=0x7f020056;
-        public static final int icon=0x7f020057;
-        public static final int img=0x7f020058;
-        public static final int mail=0x7f020059;
-        public static final int myfavorate=0x7f02005a;
-        public static final int myprofile=0x7f02005b;
-        public static final int notification_template_icon_bg=0x7f020076;
-        public static final int placeholder=0x7f02005c;
-        public static final int placeholder_11=0x7f02005d;
-        public static final int placeholder_bottiglia_lista=0x7f02005e;
-        public static final int placeholder_re=0x7f02005f;
-        public static final int rounded_corner=0x7f020060;
-        public static final int sfondo_blog=0x7f020061;
-        public static final int sfondo_cantine=0x7f020062;
-        public static final int sfondo_catalogo_vini=0x7f020063;
-        public static final int sfondo_mierecensioni=0x7f020064;
-        public static final int sfondo_nuoverecensioni=0x7f020065;
-        public static final int sfondo_promozioni=0x7f020066;
-        public static final int sfondo_regioni=0x7f020067;
-        public static final int sfondo_selezioni=0x7f020068;
-        public static final int sfondo_topvini=0x7f020069;
-        public static final int sfondo_wineprofile=0x7f02006a;
-        public static final int shop=0x7f02006b;
-        public static final int taste=0x7f02006c;
-        public static final int tes=0x7f02006d;
-        public static final int user=0x7f02006e;
-        public static final int wine1=0x7f02006f;
-        public static final int wine6=0x7f020070;
-        public static final int wine7=0x7f020071;
-        public static final int wine_review=0x7f020072;
-        public static final int winereview_1=0x7f020073;
-        public static final int winereviews=0x7f020074;
-        public static final int winetasting=0x7f020075;
+        public static final int delete=0x7f02004c;
+        public static final int edit=0x7f02004d;
+        public static final int explore=0x7f02004e;
+        public static final int finca1=0x7f02004f;
+        public static final int heart_empty=0x7f020050;
+        public static final int heart_full=0x7f020051;
+        public static final int ic_action_email=0x7f020052;
+        public static final int ic_action_map=0x7f020053;
+        public static final int ic_action_person=0x7f020054;
+        public static final int ic_action_place=0x7f020055;
+        public static final int ic_tab_white=0x7f020056;
+        public static final int ic_tab_white1=0x7f020057;
+        public static final int icon=0x7f020058;
+        public static final int img=0x7f020059;
+        public static final int logo5=0x7f02005a;
+        public static final int mail=0x7f02005b;
+        public static final int myfavorate=0x7f02005c;
+        public static final int myprofile=0x7f02005d;
+        public static final int notification_template_icon_bg=0x7f02007c;
+        public static final int options_menu=0x7f02005e;
+        public static final int placeholder=0x7f02005f;
+        public static final int placeholder_11=0x7f020060;
+        public static final int placeholder_bottiglia_lista=0x7f020061;
+        public static final int placeholder_re=0x7f020062;
+        public static final int rounded_corner=0x7f020063;
+        public static final int sfondo_blog=0x7f020064;
+        public static final int sfondo_cantine=0x7f020065;
+        public static final int sfondo_catalogo_vini=0x7f020066;
+        public static final int sfondo_mierecensioni=0x7f020067;
+        public static final int sfondo_nuoverecensioni=0x7f020068;
+        public static final int sfondo_promozioni=0x7f020069;
+        public static final int sfondo_regioni=0x7f02006a;
+        public static final int sfondo_selezioni=0x7f02006b;
+        public static final int sfondo_topvini=0x7f02006c;
+        public static final int sfondo_wineprofile=0x7f02006d;
+        public static final int shop=0x7f02006e;
+        public static final int star1=0x7f02006f;
+        public static final int star2=0x7f020070;
+        public static final int star3=0x7f020071;
+        public static final int taste=0x7f020072;
+        public static final int tes=0x7f020073;
+        public static final int user1=0x7f020074;
+        public static final int wine1=0x7f020075;
+        public static final int wine6=0x7f020076;
+        public static final int wine7=0x7f020077;
+        public static final int wine_review=0x7f020078;
+        public static final int winereview_1=0x7f020079;
+        public static final int winereviews=0x7f02007a;
+        public static final int winetasting=0x7f02007b;
     }
     public static final class id {
-        public static final int AvgRating=0x7f0b00a3;
-        public static final int Date=0x7f0b00a4;
+        public static final int AutoCompleteInput=0x7f0b0055;
+        public static final int AvgRating=0x7f0b00a9;
+        public static final int Date=0x7f0b00aa;
         public static final int HorizontalScrollView1=0x7f0b0087;
-        public static final int MyTasting=0x7f0b00a0;
-        public static final int Price=0x7f0b00a5;
-        public static final int SkuName=0x7f0b00a1;
-        public static final int TastingNotes=0x7f0b00a6;
-        public static final int UpdateButton=0x7f0b00c2;
-        public static final int Vintage=0x7f0b00a2;
-        public static final int action0=0x7f0b00a7;
+        public static final int MobileNumber=0x7f0b0095;
+        public static final int MyTasting=0x7f0b00a6;
+        public static final int Price=0x7f0b00ab;
+        public static final int SkuName=0x7f0b00a7;
+        public static final int TastingNotes=0x7f0b00ac;
+        public static final int UpdateButton=0x7f0b00ca;
+        public static final int Vintage=0x7f0b00a8;
+        public static final int WineImage=0x7f0b006e;
+        public static final int action0=0x7f0b00ad;
         public static final int action_bar=0x7f0b0041;
         public static final int action_bar_activity_content=0x7f0b0000;
         public static final int action_bar_container=0x7f0b0040;
@@ -1660,31 +1705,37 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f0b0022;
         public static final int action_bar_title=0x7f0b0021;
         public static final int action_context_bar=0x7f0b0042;
-        public static final int action_divider=0x7f0b00ab;
+        public static final int action_divider=0x7f0b00b1;
         public static final int action_menu_divider=0x7f0b0002;
         public static final int action_menu_presenter=0x7f0b0003;
         public static final int action_mode_bar=0x7f0b003e;
         public static final int action_mode_bar_stub=0x7f0b003d;
         public static final int action_mode_close_button=0x7f0b0023;
+        public static final int action_settings=0x7f0b00cd;
+        public static final int action_settings1=0x7f0b00ce;
+        public static final int action_settings2=0x7f0b00cf;
         public static final int activity_chooser_view_content=0x7f0b0024;
         public static final int alertTitle=0x7f0b0030;
         public static final int always=0x7f0b001b;
-        public static final int avgrating=0x7f0b006c;
+        public static final int avgrating=0x7f0b0070;
         public static final int beginning=0x7f0b0018;
         public static final int btnBottom=0x7f0b008f;
-        public static final int btnCamera=0x7f0b00c3;
-        public static final int btnChangePropic=0x7f0b00b6;
-        public static final int btnLoginLL=0x7f0b0097;
+        public static final int btnCamera=0x7f0b00cb;
+        public static final int btnChangePropic=0x7f0b00be;
+        public static final int btnLoginLL=0x7f0b0098;
         public static final int btnMiddle=0x7f0b008e;
+        public static final int btnSearch=0x7f0b0056;
         public static final int btnSubmitReview=0x7f0b0085;
+        public static final int btnTest=0x7f0b0080;
         public static final int btnTop=0x7f0b008d;
-        public static final int button1=0x7f0b0065;
-        public static final int button2=0x7f0b0066;
+        public static final int btnVerify=0x7f0b00bb;
+        public static final int button1=0x7f0b0069;
+        public static final int button2=0x7f0b006a;
         public static final int buttonPanel=0x7f0b002b;
-        public static final int cancel_action=0x7f0b00a8;
+        public static final int cancel_action=0x7f0b00ae;
         public static final int checkbox=0x7f0b0039;
-        public static final int chronometer=0x7f0b00ae;
-        public static final int close=0x7f0b007f;
+        public static final int chronometer=0x7f0b00b4;
+        public static final int close=0x7f0b0081;
         public static final int collapseActionView=0x7f0b001c;
         public static final int contentPanel=0x7f0b0031;
         public static final int custom=0x7f0b0037;
@@ -1694,38 +1745,39 @@ containing a value of this type.
         public static final int disableHome=0x7f0b000c;
         public static final int edit_query=0x7f0b0043;
         public static final int end=0x7f0b0019;
-        public static final int end_padder=0x7f0b00b3;
+        public static final int end_padder=0x7f0b00b9;
         public static final int expand_activities_button=0x7f0b0025;
         public static final int expanded_menu=0x7f0b0038;
         public static final int fragmentContainer=0x7f0b0086;
         public static final int gridview=0x7f0b0089;
-        public static final int gridviewfav=0x7f0b009f;
+        public static final int gridviewfav=0x7f0b00a0;
         public static final int home=0x7f0b0004;
         public static final int homeAsUp=0x7f0b000d;
         public static final int icon=0x7f0b0029;
         public static final int ifRoom=0x7f0b001d;
         public static final int image=0x7f0b0026;
-        public static final int imageButton2=0x7f0b005b;
-        public static final int imageButton3=0x7f0b007a;
-        public static final int imageButton4=0x7f0b007b;
+        public static final int imageButton2=0x7f0b0060;
+        public static final int imageButton3=0x7f0b00a1;
+        public static final int imageButton4=0x7f0b00a2;
         public static final int imageView1=0x7f0b0090;
-        public static final int imgHeart=0x7f0b0053;
-        public static final int imgHeartfav=0x7f0b009a;
-        public static final int imgWine=0x7f0b0052;
-        public static final int imgWine12=0x7f0b006a;
-        public static final int imgWinefav=0x7f0b0099;
-        public static final int info=0x7f0b00b2;
+        public static final int imgHeart=0x7f0b0058;
+        public static final int imgHeartfav=0x7f0b009b;
+        public static final int imgWine=0x7f0b0057;
+        public static final int imgWinefav=0x7f0b009a;
+        public static final int imgbtnGallery=0x7f0b00cc;
+        public static final int info=0x7f0b00b8;
         public static final int lblPassword=0x7f0b0094;
         public static final int lblUsername=0x7f0b0091;
-        public static final int line1=0x7f0b00ac;
-        public static final int line3=0x7f0b00b0;
+        public static final int line1=0x7f0b00b2;
+        public static final int line3=0x7f0b00b6;
+        public static final int linearLayout1=0x7f0b007e;
         public static final int linearLayoutBtns=0x7f0b0096;
         public static final int linearLayout_gridtableLayout=0x7f0b0088;
         public static final int listMode=0x7f0b0009;
-        public static final int listView1=0x7f0b00b4;
-        public static final int listView2=0x7f0b0079;
+        public static final int listView1=0x7f0b00bc;
+        public static final int listView2=0x7f0b007d;
         public static final int list_item=0x7f0b0028;
-        public static final int media_actions=0x7f0b00aa;
+        public static final int media_actions=0x7f0b00b0;
         public static final int middle=0x7f0b001a;
         public static final int multiply=0x7f0b0013;
         public static final int never=0x7f0b001e;
@@ -1734,16 +1786,16 @@ containing a value of this type.
         public static final int parentPanel=0x7f0b002d;
         public static final int progress_circular=0x7f0b0005;
         public static final int progress_horizontal=0x7f0b0006;
-        public static final int propicview=0x7f0b00b5;
+        public static final int propicview=0x7f0b00bd;
         public static final int radio=0x7f0b003b;
-        public static final int rating=0x7f0b007e;
-        public static final int ratingInput=0x7f0b0071;
-        public static final int ratingimage=0x7f0b0083;
-        public static final int relativeLayout1=0x7f0b0081;
-        public static final int relativeLayout2=0x7f0b00b7;
-        public static final int relativefav=0x7f0b0098;
-        public static final int rtbProductRating=0x7f0b0057;
-        public static final int rtbProductRatingfav=0x7f0b009d;
+        public static final int rating=0x7f0b0083;
+        public static final int ratingInput=0x7f0b0075;
+        public static final int ratingimage=0x7f0b0082;
+        public static final int relativeLayout1=0x7f0b007f;
+        public static final int relativeLayout2=0x7f0b00bf;
+        public static final int relativefav=0x7f0b0099;
+        public static final int rtbProductRating=0x7f0b005d;
+        public static final int rtbProductRatingfav=0x7f0b009e;
         public static final int screen=0x7f0b0014;
         public static final int scrollIndicatorDown=0x7f0b0035;
         public static final int scrollIndicatorUp=0x7f0b0032;
@@ -1768,71 +1820,73 @@ containing a value of this type.
         public static final int src_atop=0x7f0b0015;
         public static final int src_in=0x7f0b0016;
         public static final int src_over=0x7f0b0017;
-        public static final int status_bar_latest_event_content=0x7f0b00a9;
+        public static final int status_bar_latest_event_content=0x7f0b00af;
         public static final int submit_area=0x7f0b004c;
         public static final int tabMode=0x7f0b000b;
-        public static final int tableLayout1=0x7f0b0050;
-        public static final int tableLayout3=0x7f0b0059;
-        public static final int tableLayout4=0x7f0b005c;
-        public static final int tableRow1=0x7f0b0051;
-        public static final int tableRow2=0x7f0b0064;
-        public static final int tableRow3=0x7f0b0067;
-        public static final int tableRow4=0x7f0b00bb;
-        public static final int tableRow5=0x7f0b0069;
-        public static final int tableRow6=0x7f0b006d;
-        public static final int tableRow7=0x7f0b006f;
-        public static final int tableRow78=0x7f0b006b;
-        public static final int tableRow8=0x7f0b0072;
-        public static final int tableRow88=0x7f0b005a;
-        public static final int tableRow89=0x7f0b007c;
-        public static final int tableRow9=0x7f0b0078;
-        public static final int tableRow90=0x7f0b005f;
-        public static final int tableRow91=0x7f0b0061;
-        public static final int tableRow95=0x7f0b005e;
-        public static final int text=0x7f0b00b1;
-        public static final int text2=0x7f0b00af;
+        public static final int tableLayout1=0x7f0b0053;
+        public static final int tableLayout3=0x7f0b005e;
+        public static final int tableLayout4=0x7f0b0061;
+        public static final int tableRow1=0x7f0b0054;
+        public static final int tableRow2=0x7f0b0068;
+        public static final int tableRow3=0x7f0b006b;
+        public static final int tableRow4=0x7f0b00c3;
+        public static final int tableRow5=0x7f0b006d;
+        public static final int tableRow6=0x7f0b0071;
+        public static final int tableRow7=0x7f0b0073;
+        public static final int tableRow78=0x7f0b006f;
+        public static final int tableRow8=0x7f0b0076;
+        public static final int tableRow88=0x7f0b005f;
+        public static final int tableRow89=0x7f0b00a3;
+        public static final int tableRow9=0x7f0b007c;
+        public static final int tableRow90=0x7f0b0064;
+        public static final int tableRow91=0x7f0b00a5;
+        public static final int tableRow95=0x7f0b0063;
+        public static final int text=0x7f0b00b7;
+        public static final int text2=0x7f0b00b5;
         public static final int textSpacerNoButtons=0x7f0b0034;
-        public static final int textView1=0x7f0b0080;
-        public static final int textView10=0x7f0b0063;
+        public static final int textView1=0x7f0b0050;
+        public static final int textView10=0x7f0b0067;
         public static final int textView12=0x7f0b008b;
         public static final int textView13=0x7f0b008c;
-        public static final int textView14=0x7f0b00ba;
-        public static final int textView17=0x7f0b00bf;
-        public static final int textView19=0x7f0b006e;
-        public static final int textView2=0x7f0b0082;
-        public static final int textView20=0x7f0b0070;
-        public static final int textView33=0x7f0b0073;
-        public static final int textView36=0x7f0b0075;
-        public static final int textView64=0x7f0b005d;
-        public static final int textView65=0x7f0b007d;
-        public static final int textView66=0x7f0b0062;
-        public static final int textView67=0x7f0b0060;
-        public static final int textView99=0x7f0b0077;
-        public static final int time=0x7f0b00ad;
+        public static final int textView14=0x7f0b00c2;
+        public static final int textView17=0x7f0b00c7;
+        public static final int textView19=0x7f0b0072;
+        public static final int textView2=0x7f0b0051;
+        public static final int textView20=0x7f0b0074;
+        public static final int textView3=0x7f0b0052;
+        public static final int textView33=0x7f0b0077;
+        public static final int textView36=0x7f0b0079;
+        public static final int textView64=0x7f0b0062;
+        public static final int textView65=0x7f0b00a4;
+        public static final int textView66=0x7f0b0066;
+        public static final int textView67=0x7f0b0065;
+        public static final int textView99=0x7f0b007b;
+        public static final int time=0x7f0b00b3;
         public static final int title=0x7f0b002a;
         public static final int titleLogin=0x7f0b0092;
         public static final int title_template=0x7f0b002f;
-        public static final int topDivider=0x7f0b0055;
+        public static final int topDivider=0x7f0b005a;
         public static final int topPanel=0x7f0b002e;
-        public static final int txtAddress=0x7f0b00be;
-        public static final int txtCity=0x7f0b00c0;
-        public static final int txtEmail=0x7f0b00bc;
-        public static final int txtFirstName=0x7f0b00b8;
-        public static final int txtLastName=0x7f0b00b9;
-        public static final int txtMobileNumber=0x7f0b00bd;
-        public static final int txtName=0x7f0b0054;
-        public static final int txtNamefav=0x7f0b009b;
-        public static final int txtPassword=0x7f0b0095;
-        public static final int txtPrice=0x7f0b0058;
-        public static final int txtPricefav=0x7f0b009e;
-        public static final int txtProducer=0x7f0b0076;
+        public static final int txtAddress=0x7f0b00c6;
+        public static final int txtCity=0x7f0b00c8;
+        public static final int txtEmail=0x7f0b00c4;
+        public static final int txtFirstName=0x7f0b00c0;
+        public static final int txtLastName=0x7f0b00c1;
+        public static final int txtMobileNumber=0x7f0b00c5;
+        public static final int txtName=0x7f0b0059;
+        public static final int txtNamefav=0x7f0b009c;
+        public static final int txtOtp=0x7f0b00ba;
+        public static final int txtPassword=0x7f0b0097;
+        public static final int txtPrice=0x7f0b005c;
+        public static final int txtPricefav=0x7f0b009f;
+        public static final int txtProducer=0x7f0b007a;
         public static final int txtReviewComments=0x7f0b0084;
-        public static final int txtState=0x7f0b00c1;
+        public static final int txtState=0x7f0b00c9;
         public static final int txtUsername=0x7f0b0093;
-        public static final int txtVintage=0x7f0b0056;
-        public static final int txtVintagefav=0x7f0b009c;
-        public static final int txtWineDescription=0x7f0b0074;
-        public static final int txtWineName=0x7f0b0068;
+        public static final int txtVintage=0x7f0b005b;
+        public static final int txtVintagefav=0x7f0b009d;
+        public static final int txtWineDescription=0x7f0b0078;
+        public static final int txtWineName=0x7f0b006c;
         public static final int txtWinename=0x7f0b008a;
         public static final int up=0x7f0b0008;
         public static final int useLogo=0x7f0b0012;
@@ -1872,47 +1926,53 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030016;
         public static final int abc_search_view=0x7f030017;
         public static final int abc_select_dialog_material=0x7f030018;
-        public static final int border=0x7f030019;
-        public static final int cell=0x7f03001a;
-        public static final int commentscell=0x7f03001b;
-        public static final int deletereviewpop=0x7f03001c;
-        public static final int detailedview=0x7f03001d;
-        public static final int dummy=0x7f03001e;
-        public static final int editreviewpopup=0x7f03001f;
-        public static final int fragment=0x7f030020;
-        public static final int landscape=0x7f030021;
-        public static final int landscapecell=0x7f030022;
-        public static final int listview=0x7f030023;
-        public static final int locationlayout=0x7f030024;
-        public static final int login=0x7f030025;
-        public static final int main=0x7f030026;
-        public static final int myfavorite=0x7f030027;
-        public static final int myfavoritegridview=0x7f030028;
-        public static final int mytasting=0x7f030029;
-        public static final int mytastingview=0x7f03002a;
-        public static final int notification_media_action=0x7f03002b;
-        public static final int notification_media_cancel_action=0x7f03002c;
-        public static final int notification_template_big_media=0x7f03002d;
-        public static final int notification_template_big_media_narrow=0x7f03002e;
-        public static final int notification_template_lines=0x7f03002f;
-        public static final int notification_template_media=0x7f030030;
-        public static final int notification_template_part_chronometer=0x7f030031;
-        public static final int notification_template_part_time=0x7f030032;
-        public static final int potrait=0x7f030033;
-        public static final int potraitlistview=0x7f030034;
-        public static final int profile=0x7f030035;
-        public static final int profilepicklayout=0x7f030036;
-        public static final int select_dialog_item_material=0x7f030037;
-        public static final int select_dialog_multichoice_material=0x7f030038;
-        public static final int select_dialog_singlechoice_material=0x7f030039;
-        public static final int support_simple_spinner_dropdown_item=0x7f03003a;
-        public static final int tasting=0x7f03003b;
-        public static final int tastinglistview=0x7f03003c;
-        public static final int winepropertiescell=0x7f03003d;
+        public static final int aboutlayout=0x7f030019;
+        public static final int autocompletetextlayout=0x7f03001a;
+        public static final int border=0x7f03001b;
+        public static final int cell=0x7f03001c;
+        public static final int commentscell=0x7f03001d;
+        public static final int deletereviewpop=0x7f03001e;
+        public static final int detailedview=0x7f03001f;
+        public static final int dummy=0x7f030020;
+        public static final int editreviewpopup=0x7f030021;
+        public static final int fragment=0x7f030022;
+        public static final int landscape=0x7f030023;
+        public static final int landscapecell=0x7f030024;
+        public static final int listview=0x7f030025;
+        public static final int locationlayout=0x7f030026;
+        public static final int login=0x7f030027;
+        public static final int main=0x7f030028;
+        public static final int myfavorite=0x7f030029;
+        public static final int myfavoritegridview=0x7f03002a;
+        public static final int myreviewscell=0x7f03002b;
+        public static final int mytasting=0x7f03002c;
+        public static final int mytastingview=0x7f03002d;
+        public static final int notification_media_action=0x7f03002e;
+        public static final int notification_media_cancel_action=0x7f03002f;
+        public static final int notification_template_big_media=0x7f030030;
+        public static final int notification_template_big_media_narrow=0x7f030031;
+        public static final int notification_template_lines=0x7f030032;
+        public static final int notification_template_media=0x7f030033;
+        public static final int notification_template_part_chronometer=0x7f030034;
+        public static final int notification_template_part_time=0x7f030035;
+        public static final int otpreceiverlayout=0x7f030036;
+        public static final int potrait=0x7f030037;
+        public static final int potraitlistview=0x7f030038;
+        public static final int profile=0x7f030039;
+        public static final int profilepicklayout=0x7f03003a;
+        public static final int select_dialog_item_material=0x7f03003b;
+        public static final int select_dialog_multichoice_material=0x7f03003c;
+        public static final int select_dialog_singlechoice_material=0x7f03003d;
+        public static final int support_simple_spinner_dropdown_item=0x7f03003e;
+        public static final int tasting=0x7f03003f;
+        public static final int tastinglistview=0x7f030040;
+        public static final int winepropertiescell=0x7f030041;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f050015;
-        public static final int Hello=0x7f050014;
+        public static final int ApplicationName=0x7f050022;
+        public static final int Hello=0x7f050021;
+        public static final int RandR=0x7f050027;
+        public static final int WHATWEOFFER=0x7f050025;
         public static final int abc_action_bar_home_description=0x7f050000;
         public static final int abc_action_bar_home_description_format=0x7f050001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f050002;
@@ -1932,9 +1992,23 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f050010;
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
-        public static final int openCamera=0x7f050016;
-        public static final int openGallery=0x7f050017;
+        public static final int mobile_center_distribute_dialog_actioned_on_disabled_toast=0x7f050014;
+        public static final int mobile_center_distribute_download_progress_number_format=0x7f050015;
+        public static final int mobile_center_distribute_download_successful_notification_message=0x7f050016;
+        public static final int mobile_center_distribute_download_successful_notification_title=0x7f050017;
+        public static final int mobile_center_distribute_downloading_mandatory_update=0x7f050018;
+        public static final int mobile_center_distribute_install=0x7f050019;
+        public static final int mobile_center_distribute_unknown_sources_dialog_message=0x7f05001a;
+        public static final int mobile_center_distribute_unknown_sources_dialog_settings=0x7f05001b;
+        public static final int mobile_center_distribute_update_dialog_download=0x7f05001c;
+        public static final int mobile_center_distribute_update_dialog_ignore=0x7f05001d;
+        public static final int mobile_center_distribute_update_dialog_message=0x7f05001e;
+        public static final int mobile_center_distribute_update_dialog_postpone=0x7f05001f;
+        public static final int mobile_center_distribute_update_dialog_title=0x7f050020;
+        public static final int openCamera=0x7f050023;
+        public static final int openGallery=0x7f050024;
         public static final int status_bar_notification_info_overflow=0x7f050013;
+        public static final int whoweare=0x7f050026;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08007d;
@@ -2989,6 +3063,85 @@ containing a value of this type.
           @attr name com.savvyitsol.winehangoutz:allowStacking
         */
         public static final int ButtonBarLayout_allowStacking = 0;
+        /** Attributes that can be used with a CircleImageView.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_color com.savvyitsol.winehangoutz:civ_border_color}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_overlay com.savvyitsol.winehangoutz:civ_border_overlay}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_border_width com.savvyitsol.winehangoutz:civ_border_width}</code></td><td></td></tr>
+           <tr><td><code>{@link #CircleImageView_civ_fill_color com.savvyitsol.winehangoutz:civ_fill_color}</code></td><td></td></tr>
+           </table>
+           @see #CircleImageView_civ_border_color
+           @see #CircleImageView_civ_border_overlay
+           @see #CircleImageView_civ_border_width
+           @see #CircleImageView_civ_fill_color
+         */
+        public static final int[] CircleImageView = {
+            0x7f0100ce, 0x7f0100cf, 0x7f0100d0, 0x7f0100d1
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.savvyitsol.winehangoutz.R.attr#civ_border_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.savvyitsol.winehangoutz:civ_border_color
+        */
+        public static final int CircleImageView_civ_border_color = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.savvyitsol.winehangoutz.R.attr#civ_border_overlay}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.savvyitsol.winehangoutz:civ_border_overlay
+        */
+        public static final int CircleImageView_civ_border_overlay = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.savvyitsol.winehangoutz.R.attr#civ_border_width}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
+Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
+in (inches), mm (millimeters).
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.savvyitsol.winehangoutz:civ_border_width
+        */
+        public static final int CircleImageView_civ_border_width = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.savvyitsol.winehangoutz.R.attr#civ_fill_color}
+          attribute's value can be found in the {@link #CircleImageView} array.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.savvyitsol.winehangoutz:civ_fill_color
+        */
+        public static final int CircleImageView_civ_fill_color = 3;
         /** Attributes that can be used with a CompoundButton.
            <p>Includes the following attributes:</p>
            <table>

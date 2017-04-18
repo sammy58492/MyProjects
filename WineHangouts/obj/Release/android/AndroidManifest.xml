@@ -1,29 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.savvyitsol.winehangoutz" android:versionName="1.1" android:installLocation="internalOnly" android:versionCode="5">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.savvyitsol.winehangoutz" android:versionName="1.1" android:installLocation="internalOnly" android:versionCode="6">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="16" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="@string/ApplicationName" android:theme="@style/CustomActionBarTheme" android:icon="@drawable/icon" android:name="android.app.Application" android:allowBackup="true">
-    <activity android:label="LandscapeActivity" android:name="md50912886b321ab5443c0818d74ee0a940.LandscapeActivity" />
+  <application android:label="@string/ApplicationName" android:theme="@style/CustomActionBarTheme" android:icon="@drawable/logo5" android:name="android.app.Application" android:allowBackup="true">
+    <activity android:label="About Us" android:name="md50912886b321ab5443c0818d74ee0a940.AboutActivity" />
+    <activity android:label="Alert" android:name="md50912886b321ab5443c0818d74ee0a940.AlertActivity" />
+    <activity android:icon="@drawable/icon" android:label="Search Helper" android:name="md50912886b321ab5443c0818d74ee0a940.AutoCompleteTextActivity" />
+    <activity android:label="EnoMachine Bottles" android:name="md50912886b321ab5443c0818d74ee0a940.LandscapeActivity" />
     <activity android:label="My Favorites" android:name="md50912886b321ab5443c0818d74ee0a940.MyFavoriteAvtivity" />
     <activity android:label="My Tastings" android:name="md50912886b321ab5443c0818d74ee0a940.MyTastingActivity" />
     <activity android:label="MyTastingActivity" android:name="md50912886b321ab5443c0818d74ee0a940.PotraitActivity" />
-    <activity android:label="Wine Hangouts User Profile" android:name="md50912886b321ab5443c0818d74ee0a940.ProfileActivity" />
+    <activity android:label="My Profile" android:name="md50912886b321ab5443c0818d74ee0a940.ProfileActivity" />
     <activity android:label="@string/ApplicationName" android:theme="@android:style/Theme.Dialog" android:name="md50912886b321ab5443c0818d74ee0a940.ProfilePictureGallery" />
     <activity android:label="@string/ApplicationName" android:theme="@android:style/Theme.Dialog" android:name="md50912886b321ab5443c0818d74ee0a940.ProfilePicturePickDialog" />
     <activity android:label="@string/ApplicationName" android:theme="@style/Base.Widget.Design.TabLayout" android:name="md50912886b321ab5443c0818d74ee0a940.TabActivity" />
     <activity android:icon="@drawable/icon" android:label="Wine Details" android:name="md50912886b321ab5443c0818d74ee0a940.detailViewActivity" />
-    <activity android:label="@string/ApplicationName" android:name="md50912886b321ab5443c0818d74ee0a940.LoginActivity">
+    <activity android:icon="@drawable/logo5" android:label="@string/ApplicationName" android:name="md50912886b321ab5443c0818d74ee0a940.LoginActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
     <activity android:icon="@drawable/icon" android:label="Testing App" android:name="md50912886b321ab5443c0818d74ee0a940.TestingActivity" />
-    <activity android:label="GridViewActivity" android:name="md50912886b321ab5443c0818d74ee0a940.GridViewActivity" />
+    <activity android:label="Available Wines" android:name="md50912886b321ab5443c0818d74ee0a940.GridViewActivity" />
     <activity android:label="My Reviews" android:name="md50912886b321ab5443c0818d74ee0a940.MyReviewActivity" />
+    <activity android:label="Verification" android:name="md50912886b321ab5443c0818d74ee0a940.VerificationActivity" />
     <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="com.savvyitsol.winehangoutz.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:name="com.microsoft.azure.mobile.distribute.DeepLinkActivity" android:theme="@android:style/Theme.NoDisplay">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:host="updates" android:path="/" android:scheme="mobile.center" />
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.microsoft.azure.mobile.distribute.DownloadManagerReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
+        <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+      </intent-filter>
+    </receiver>
   </application>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+  <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
 </manifest>

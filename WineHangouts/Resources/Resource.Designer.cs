@@ -26,6 +26,19 @@ namespace WineHangouts
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast = global::WineHangouts.Resource.String.mobile_center_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_progress_number_format = global::WineHangouts.Resource.String.mobile_center_distribute_download_progress_number_format;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_successful_notification_message = global::WineHangouts.Resource.String.mobile_center_distribute_download_successful_notification_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_download_successful_notification_title = global::WineHangouts.Resource.String.mobile_center_distribute_download_successful_notification_title;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_downloading_mandatory_update = global::WineHangouts.Resource.String.mobile_center_distribute_downloading_mandatory_update;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_install = global::WineHangouts.Resource.String.mobile_center_distribute_install;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_unknown_sources_dialog_message = global::WineHangouts.Resource.String.mobile_center_distribute_unknown_sources_dialog_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_unknown_sources_dialog_settings = global::WineHangouts.Resource.String.mobile_center_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_download = global::WineHangouts.Resource.String.mobile_center_distribute_update_dialog_download;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_ignore = global::WineHangouts.Resource.String.mobile_center_distribute_update_dialog_ignore;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_message = global::WineHangouts.Resource.String.mobile_center_distribute_update_dialog_message;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_postpone = global::WineHangouts.Resource.String.mobile_center_distribute_update_dialog_postpone;
+			global::Microsoft.Azure.Mobile.Distribute.Resource.String.mobile_center_distribute_update_dialog_title = global::WineHangouts.Resource.String.mobile_center_distribute_update_dialog_title;
 		}
 		
 		public partial class Animation
@@ -2485,17 +2498,17 @@ namespace WineHangouts
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f050015
-			public const int ApplicationName = 2131034133;
+			// aapt resource value: 0x7f050022
+			public const int ApplicationName = 2131034146;
 			
-			// aapt resource value: 0x7f050014
-			public const int Hello = 2131034132;
+			// aapt resource value: 0x7f050021
+			public const int Hello = 2131034145;
 			
-			// aapt resource value: 0x7f05001a
-			public const int RandR = 2131034138;
+			// aapt resource value: 0x7f050027
+			public const int RandR = 2131034151;
 			
-			// aapt resource value: 0x7f050018
-			public const int WHATWEOFFER = 2131034136;
+			// aapt resource value: 0x7f050025
+			public const int WHATWEOFFER = 2131034149;
 			
 			// aapt resource value: 0x7f050000
 			public const int abc_action_bar_home_description = 2131034112;
@@ -2554,17 +2567,56 @@ namespace WineHangouts
 			// aapt resource value: 0x7f050012
 			public const int abc_toolbar_collapse_description = 2131034130;
 			
+			// aapt resource value: 0x7f050014
+			public const int mobile_center_distribute_dialog_actioned_on_disabled_toast = 2131034132;
+			
+			// aapt resource value: 0x7f050015
+			public const int mobile_center_distribute_download_progress_number_format = 2131034133;
+			
 			// aapt resource value: 0x7f050016
-			public const int openCamera = 2131034134;
+			public const int mobile_center_distribute_download_successful_notification_message = 2131034134;
 			
 			// aapt resource value: 0x7f050017
-			public const int openGallery = 2131034135;
+			public const int mobile_center_distribute_download_successful_notification_title = 2131034135;
+			
+			// aapt resource value: 0x7f050018
+			public const int mobile_center_distribute_downloading_mandatory_update = 2131034136;
+			
+			// aapt resource value: 0x7f050019
+			public const int mobile_center_distribute_install = 2131034137;
+			
+			// aapt resource value: 0x7f05001a
+			public const int mobile_center_distribute_unknown_sources_dialog_message = 2131034138;
+			
+			// aapt resource value: 0x7f05001b
+			public const int mobile_center_distribute_unknown_sources_dialog_settings = 2131034139;
+			
+			// aapt resource value: 0x7f05001c
+			public const int mobile_center_distribute_update_dialog_download = 2131034140;
+			
+			// aapt resource value: 0x7f05001d
+			public const int mobile_center_distribute_update_dialog_ignore = 2131034141;
+			
+			// aapt resource value: 0x7f05001e
+			public const int mobile_center_distribute_update_dialog_message = 2131034142;
+			
+			// aapt resource value: 0x7f05001f
+			public const int mobile_center_distribute_update_dialog_postpone = 2131034143;
+			
+			// aapt resource value: 0x7f050020
+			public const int mobile_center_distribute_update_dialog_title = 2131034144;
+			
+			// aapt resource value: 0x7f050023
+			public const int openCamera = 2131034147;
+			
+			// aapt resource value: 0x7f050024
+			public const int openGallery = 2131034148;
 			
 			// aapt resource value: 0x7f050013
 			public const int status_bar_notification_info_overflow = 2131034131;
 			
-			// aapt resource value: 0x7f050019
-			public const int whoweare = 2131034137;
+			// aapt resource value: 0x7f050026
+			public const int whoweare = 2131034150;
 			
 			static String()
 			{
