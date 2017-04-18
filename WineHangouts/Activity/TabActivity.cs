@@ -11,6 +11,11 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 using System.Threading;
 using System.Threading.Tasks;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+using Microsoft.Azure.Mobile.Distribute;
+
 
 namespace WineHangouts
 {
@@ -35,6 +40,8 @@ namespace WineHangouts
 
             if (bundle != null)
                 this.ActionBar.SelectTab(this.ActionBar.GetTabAt(bundle.GetInt("tab")));
+            MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
+                  typeof(Analytics), typeof(Crashes));
 
         }
 

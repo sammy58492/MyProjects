@@ -2,16 +2,13 @@
 <Paths>
   <Jars></Jars>
   <ResolvedResourceDirectories>
-    <ResolvedResourceDirectory>C:\Users\Savvy IT\Desktop\Github\WineHangoutz\Android\WineHangouts\WineHangouts\obj\Debug\__library_projects__\Microsoft.Azure.Mobile.Android.Bindings\library_project_imports\res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>C:\Users\Savvy IT\Desktop\Github\WineHangoutz\Android\WineHangouts\WineHangouts\obj\Debug\__library_projects__\Refractored.Controls.CircleImageView\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Users\Savvy IT\Documents\GitHub\MyProjects\WineHangouts\obj\Debug\__library_projects__\Refractored.Controls.CircleImageView\library_project_imports\res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
-    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Microsoft.Azure.Mobile.Android.Bindings\library_project_imports\assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj\Debug\__library_projects__\Refractored.Controls.CircleImageView\library_project_imports\assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
-    <ResolvedResourceDirectoryStamp>C:\Users\Savvy IT\Desktop\Github\WineHangoutz\Android\WineHangouts\WineHangouts\obj\Debug\__library_projects__\Microsoft.Azure.Mobile.Android.Bindings.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>C:\Users\Savvy IT\Desktop\Github\WineHangoutz\Android\WineHangouts\WineHangouts\obj\Debug\__library_projects__\Refractored.Controls.CircleImageView.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Users\Savvy IT\Documents\GitHub\MyProjects\WineHangouts\obj\Debug\__library_projects__\Refractored.Controls.CircleImageView.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

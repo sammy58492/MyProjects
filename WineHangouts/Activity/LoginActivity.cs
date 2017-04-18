@@ -13,6 +13,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Hangout.Models;
 using Android.Telephony;
+using Microsoft.Azure.Mobile;
+using Microsoft.Azure.Mobile.Analytics;
+using Microsoft.Azure.Mobile.Crashes;
+using Microsoft.Azure.Mobile.Distribute;
+
 
 namespace WineHangouts
 
@@ -177,9 +182,11 @@ namespace WineHangouts
                 //}
              
 
-            };                 
+            };
+            MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
+                  typeof(Analytics), typeof(Crashes));
 
-            
+
         }
         private void SendSmsgs(string userNumber)
         {
