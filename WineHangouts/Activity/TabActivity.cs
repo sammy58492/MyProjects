@@ -16,7 +16,6 @@ using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
 using Microsoft.Azure.Mobile.Distribute;
 
-
 namespace WineHangouts
 {
     [Activity(Label = "@string/ApplicationName", MainLauncher = false, Theme = "@style/Base.Widget.Design.TabLayout")]
@@ -26,7 +25,9 @@ namespace WineHangouts
         {
             base.OnCreate(bundle);
             this.TitleColor = Color.LightGray;
-
+            Analytics.Enabled = true;
+            bool isEnabled = Analytics.Enabled;
+           // Analytics.TrackEvent("Video clicked", new Dictionary<string, string> { { "Category", "Music" }, { "FileName", "favorite.avi" } });
 
             SetContentView(Resource.Layout.Fragment);
 
@@ -40,8 +41,6 @@ namespace WineHangouts
 
             if (bundle != null)
                 this.ActionBar.SelectTab(this.ActionBar.GetTabAt(bundle.GetInt("tab")));
-            MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
-                  typeof(Analytics), typeof(Crashes));
 
         }
 
@@ -261,7 +260,10 @@ namespace WineHangouts
                         //StartActivity(intent);
                     };
                 }
-
+                //bool isEnabled = Crashes.Enabled;
+                //Crashes.Enabled = true;
+                //Crashes.GenerateTestCrash();
+                //bool didAppCrash = Crashes.HasCrashedInLastSession;
                 return view;
 
 
@@ -333,6 +335,7 @@ namespace WineHangouts
 
             return true;
         }
+
     }
 
 }

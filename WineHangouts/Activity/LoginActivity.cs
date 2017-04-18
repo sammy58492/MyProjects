@@ -18,7 +18,6 @@ using Microsoft.Azure.Mobile.Analytics;
 using Microsoft.Azure.Mobile.Crashes;
 using Microsoft.Azure.Mobile.Distribute;
 
-
 namespace WineHangouts
 
 {
@@ -32,7 +31,8 @@ namespace WineHangouts
             base.OnCreate(savedInstanceState);
             
             SetContentView(Resource.Layout.login);
-           
+            MobileCenter.Start("{Analytics,Crashes,Distribute}", typeof(Analytics), typeof(Crashes), typeof(Distribute));
+
             Button login = FindViewById<Button>(Resource.Id.btnLoginLL);
             
             EditText username = FindViewById<EditText>(Resource.Id.txtUsername);
@@ -128,8 +128,10 @@ namespace WineHangouts
 
                         }
                     }
+                    MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
+                   typeof(Analytics), typeof(Crashes));
 
-                   //SendSmsgs(txtUserNumber.Text);
+                    //SendSmsgs(txtUserNumber.Text);
                     //var intent = new Intent(this, typeof(VerificationActivity));
                     ////var intent = new Intent(this, typeof(TabActivity));
                     //intent.PutExtra("otp", otp);
@@ -182,11 +184,9 @@ namespace WineHangouts
                 //}
              
 
-            };
-            MobileCenter.Start("4403e7d2-95d8-414e-9390-6c1dbd241c21",
-                  typeof(Analytics), typeof(Crashes));
+            };                 
 
-
+            
         }
         private void SendSmsgs(string userNumber)
         {

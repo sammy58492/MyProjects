@@ -1969,10 +1969,10 @@ containing a value of this type.
         public static final int winepropertiescell=0x7f030041;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f050015;
-        public static final int Hello=0x7f050014;
-        public static final int RandR=0x7f05001a;
-        public static final int WHATWEOFFER=0x7f050018;
+        public static final int ApplicationName=0x7f050022;
+        public static final int Hello=0x7f050021;
+        public static final int RandR=0x7f050027;
+        public static final int WHATWEOFFER=0x7f050025;
         public static final int abc_action_bar_home_description=0x7f050000;
         public static final int abc_action_bar_home_description_format=0x7f050001;
         public static final int abc_action_bar_home_subtitle_description_format=0x7f050002;
@@ -1992,10 +1992,23 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with=0x7f050010;
         public static final int abc_shareactionprovider_share_with_application=0x7f050011;
         public static final int abc_toolbar_collapse_description=0x7f050012;
-        public static final int openCamera=0x7f050016;
-        public static final int openGallery=0x7f050017;
+        public static final int mobile_center_distribute_dialog_actioned_on_disabled_toast=0x7f050014;
+        public static final int mobile_center_distribute_download_progress_number_format=0x7f050015;
+        public static final int mobile_center_distribute_download_successful_notification_message=0x7f050016;
+        public static final int mobile_center_distribute_download_successful_notification_title=0x7f050017;
+        public static final int mobile_center_distribute_downloading_mandatory_update=0x7f050018;
+        public static final int mobile_center_distribute_install=0x7f050019;
+        public static final int mobile_center_distribute_unknown_sources_dialog_message=0x7f05001a;
+        public static final int mobile_center_distribute_unknown_sources_dialog_settings=0x7f05001b;
+        public static final int mobile_center_distribute_update_dialog_download=0x7f05001c;
+        public static final int mobile_center_distribute_update_dialog_ignore=0x7f05001d;
+        public static final int mobile_center_distribute_update_dialog_message=0x7f05001e;
+        public static final int mobile_center_distribute_update_dialog_postpone=0x7f05001f;
+        public static final int mobile_center_distribute_update_dialog_title=0x7f050020;
+        public static final int openCamera=0x7f050023;
+        public static final int openGallery=0x7f050024;
         public static final int status_bar_notification_info_overflow=0x7f050013;
-        public static final int whoweare=0x7f050019;
+        public static final int whoweare=0x7f050026;
     }
     public static final class style {
         public static final int AlertDialog_AppCompat=0x7f08007d;
